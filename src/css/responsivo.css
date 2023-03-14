@@ -1,0 +1,10 @@
+.informacoes .descricao{
+    width: 100%;
+}
+
+.menuLateral{
+    position: static;
+    min-height: auto;
+    width: 100%;
+    margin-top: 50px;
+}

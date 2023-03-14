@@ -9,19 +9,22 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@1,200&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="./src/css/reset.css">
+    <link rel="stylesheet" href="./src/css/estilo.css">
 </head>
 <body>
     <main>
         <!-- Imagens de fundo a serem passadas no site -->
         <div class="carrosel"> 
-            <img src="./src/imagens/fight-song2.jpg" alt="Shot de ambiente">
-            <img src="./src/imagens/fight-song9.jpg" alt="Tobi cercado">
-            <img src="./src/imagens/fight-song3.jpg" alt="Personagens Diversos">
-            <img src="./src/imagens/fight-song6.jpg" alt="Tobi fumando">
-            <img src="./src/imagens/fight-song1.jpg" alt="Varios personagems correndo">
-            <img src="./src/imagens/fight-song4.jpg" alt="Ryuuko rosto">
-            <img src="./src/imagens/fight-song5.jpg" alt="Ryuuko olhando mãos vermelhas">
-            <img src="./src/imagens/fight-song7.jpg" alt="Ryuuko de Tobi de mãos dadas">
+            <img class="imagem ativa" src="./src/imagens/fight-song2.jpg" alt="Shot de ambiente">
+            <img class="imagem" src="./src/imagens/fight-song9.jpg" alt="Tobi cercado">
+            <img class="imagem" src="./src/imagens/fight-song3.jpg" alt="Personagens Diversos">
+            <img class="imagem" src="./src/imagens/fight-song6.jpg" alt="Tobi fumando">
+            <img class="imagem" src="./src/imagens/fight-song1.jpg" alt="Varios personagems correndo">
+            <img class="imagem" src="./src/imagens/fight-song4.jpg" alt="Ryuuko rosto">
+            <img class="imagem" src="./src/imagens/fight-song5.jpg" alt="Ryuuko olhando mãos vermelhas">
+            <img class="imagem" src="./src/imagens/fight-song7.jpg" alt="Ryuuko de Tobi de mãos dadas">
             
 
         <!-- Onde vamos colocar o todo o conteúdo da tela (logo, texto, botoes, etc)-->
@@ -29,9 +32,9 @@
 
             <!-- Logo e texto -->
             <div class="informacoes"> 
-                <img src="./src/imagens/Logo.png" alt="Logo: Fight Song">
+                <img src="./src/imagens/Logo.png" class="logo" alt="Logo: Fight Song">
                 <!-- <p> = parágrafo-->
-                <p>
+                <p class="descricao">
                     Fight Song é uma música lançada pela banda Eve, sendo feita originalmente para tocar durante
                     o encerramento de um dos 12 episódios do anime Chainsaw Man. Seu videoclipe estilo anime mostra acontecimentos
                     futuros de um mangá e light novel originais da banda chamado Kara no Kioku em seu mundo repletro de monstros
@@ -45,11 +48,14 @@
                 <button class="botao"></button>
                 <button class="botao"></button>
                 <button class="botao"></button>
+                <button class="botao"></button>
+                <button class="botao"></button>
+                <button class="botao"></button>
             </div>
         </div>
 
         <!-- aside = área lateral, será onde colocaremos o menu lateral -->
-        <aside>
+        <aside class="menuLateral">
 
             <!-- ul = Unordered List | Lista sem ordem -->
             <ul>
