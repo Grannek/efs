@@ -24,7 +24,7 @@ main::after{
 }
 
 .informacoes{
-
+    right: 0;
 }
 
 .informacoes .logo{
@@ -36,7 +36,7 @@ main::after{
     width: 49%;
     font-size: 24px;
     color: #ffffff;
-    gap: 20px;
+    line-height: 20px;
 }
 
 .botoes-carrosel{
@@ -104,4 +104,14 @@ main::after{
 
 .carrossel .imagem.ativa{
     display: block;
+}
+
+@keyframes mudarImagem{
+    from{
+        opacity: 0.85;
+    }
+
+    to{
+        opacity: 1;
+    }
 }
